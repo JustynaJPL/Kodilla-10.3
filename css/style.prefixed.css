@@ -1,27 +1,23 @@
-.carousel {
-  margin: 0 auto;
+.carousel-view, .carousel, .carousel ul, .carousel li {
+  margin: 0;
   width: 400px;
   height: 300px;
   overflow: hidden;
-  padding: 0;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+  padding: 0; }
+
+.carousel {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  margin: 0 auto; }
   .carousel ul {
-    padding: 0;
-    margin: 0;
     width: 2000px;
     -webkit-text-decoration-line: none;
             text-decoration-line: none;
     -webkit-text-decoration-style: unset;
             text-decoration-style: unset;
-    overflow: hidden;
     display: block; }
   .carousel li {
-    width: 400px;
-    height: 300px;
     list-style: none;
     float: left;
-    display: inline;
-    overflow: hidden;
-    padding: 0; }
+    display: inline; }
 
 /*# sourceMappingURL=style.prefixed.css.map */
