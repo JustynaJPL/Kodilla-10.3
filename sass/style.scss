@@ -1,28 +1,26 @@
-.jumbotron {
-    background-image: url("https://preview.ibb.co/dGQT0G/2d34d2df139408b6107c1b9e4040dbf9_heavy_rock_heavy_metal.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    color: black;
-}
-
-ul {
+.carousel {
     margin: 0 auto;
-    max-width: 1200px;
-}
-
-nav {
-	/*tutaj zmiana*/
-
-	background-color: blue;
-    display: flex;
-
-    li {
-        margin: 10px;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    ul {
+        padding:0;
+        margin: 0;
+        width:2000px;
+        text-decoration-line: none;
+        text-decoration-style: unset;
+        overflow: hidden;
+        display: block;
     }
-}
-.test {
-    display: flex;
-    flex-wrap: wrap;
-    color: blue;
+    li {
+        width: 400px;
+        height: 300px;
+        list-style: none;
+        float: left;
+        display: inline;
+        overflow: hidden;
+        padding:0;
+    }
 }
